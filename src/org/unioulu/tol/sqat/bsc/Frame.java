@@ -15,15 +15,16 @@ public class Frame {
 	}
 	//the score of a single frame
 	public int score(){
-		int oldScore=0;
+		
 		//to be implemented
 	
 		//		int som =bg.score();
 		//		if(som!=0){
 		//			System.out.println("fsfs");
 		//		}
-		if(bg.score() !=0){
-		oldScore=bg.score();}
+		
+		int oldScore=bg.score();
+		
 		int sum=firstThrow+secondThrow;
 		bg.sentScore(sum);
 		

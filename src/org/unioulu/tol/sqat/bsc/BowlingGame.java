@@ -29,10 +29,15 @@ public class BowlingGame {
 		for(int i=0; i<size;i++){
 			
 		} */
+		int sum;
+		if(scores.isEmpty()){ sum=0;}
+		else{
 		int index=scores.size();
 		System.out.println("index "+index);
-		int sum= scores.get(index-1);
+		sum= scores.get(index-1);
 		System.out.println("sum "+sum);
+		}
+		
 		return sum;
 	}
 	
