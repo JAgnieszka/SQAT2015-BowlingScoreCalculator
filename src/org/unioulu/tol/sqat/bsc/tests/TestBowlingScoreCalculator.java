@@ -13,6 +13,8 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testFirstFrame() {
 		Frame frame = new Frame(1 , 4);
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(frame);
 		int result = frame.score();
 		assertEquals(5, result);
 	}
