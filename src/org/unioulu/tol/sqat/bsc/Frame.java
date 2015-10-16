@@ -9,7 +9,10 @@ public class Frame {
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
-	//Frame fr=new Frame();
+	public Frame() {
+		// TODO Auto-generated constructor stub
+		super();
+	}
 	//the score of a single frame
 	public int score(){
 		//to be implemented

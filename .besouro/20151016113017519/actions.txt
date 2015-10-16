@@ -73,3 +73,9 @@ EditAction 1444986907571 TestBowlingScoreCalculator.java 543 1 3 1
 UnitTestCaseAction 1444986910011 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444986910011 TestBowlingScoreCalculator FAIL
 EditAction 1444986985316 Frame.java 1035 6 11 0
+UnitTestCaseAction 1444986985635 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444986985635 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444987024167 Frame.java ADD Frame fr FIELD
+RefactoringAction 1444987032186 Frame.java REMOVE fr FIELD
+RefactoringAction 1444987037718 Frame.java ADD Frame() METHOD
+EditAction 1444987050468 Frame.java 1087 7 12 0
