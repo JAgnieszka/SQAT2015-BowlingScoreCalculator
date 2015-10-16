@@ -13,7 +13,7 @@ public class BowlingGame {
 	public void addFrame(Frame frame){
 		//to be implemented
 		frames.add(frame);
-		bg.score();
+		int zz=score();
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
@@ -23,7 +23,7 @@ public class BowlingGame {
 	public int score(){
 		//to be implemented
 		int size=frames.size();
-		System.out.println("last "+frames.get(size));
+		System.out.println("last "+size);
 		return 0;
 	}
 	
