@@ -12,7 +12,6 @@ public class Frame {
 	}
 
 	public Frame() {
-		// TODO Auto-generated constructor stub
 		super();
 	}
 
@@ -20,7 +19,7 @@ public class Frame {
 	public int score() {
 		
 		int sum = firstThrow + secondThrow;
-		System.out.println("sum " + sum);
+//		System.out.println("sum " + sum);
 		oldScore = bg.score();
 		bg.sentScore(sum);
 //		System.out.println("oldScore " + oldScore);
