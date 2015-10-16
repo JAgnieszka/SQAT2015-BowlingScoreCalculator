@@ -40,6 +40,7 @@ public class BowlingGame {
 		} else {
 			//int index = scores.size();
 			//System.out.println("index " + index);
+			
 			sum = scores.get(index - 1);
 			System.out.println("sum " + sum);
 		}
