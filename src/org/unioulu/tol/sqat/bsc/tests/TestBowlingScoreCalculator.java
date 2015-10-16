@@ -25,7 +25,7 @@ public class TestBowlingScoreCalculator {
 		int f1=frame1.score();
 		
 		Frame frame2 = new Frame(4, 5);
-		int result = frame2.score();
+		int result = f1+frame2.score();
 		assertEquals(14, result);
 		System.out.println("****************************** ");
 	}
