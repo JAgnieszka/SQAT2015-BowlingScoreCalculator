@@ -26,3 +26,8 @@ EditAction 1444985927322 Frame.java 835 6 8 0
 RefactoringAction 1444985941248 Frame.java ADD BowlingGame bg FIELD
 RefactoringAction 1444985948266 Frame.java RENAME Frame(int, int)=>int firstThrow/2 FIELD
 EditAction 1444985957697 Frame.java 872 6 8 0
+RefactoringAction 1444985968878 TestBowlingScoreCalculator.java ADD void testFirstFrame()/2 METHOD
+RefactoringAction 1444985976394 TestBowlingScoreCalculator.java RENAME testFirstFrame()/2=>void testSecFrame() METHOD
+RefactoringAction 1444985977910 TestBowlingScoreCalculator.java RENAME testSecFrame()=>void testSeconFrame() METHOD
+RefactoringAction 1444985979426 TestBowlingScoreCalculator.java RENAME testSeconFrame()=>void testSecondFrame() METHOD
+EditAction 1444986003362 TestBowlingScoreCalculator.java 526 2 6 2

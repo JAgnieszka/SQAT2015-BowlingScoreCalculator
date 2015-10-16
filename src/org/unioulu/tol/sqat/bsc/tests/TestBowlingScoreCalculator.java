@@ -17,4 +17,10 @@ public class TestBowlingScoreCalculator {
 		assertEquals(5, result);
 	}
 
+	@Test
+	public void testSecondFrame() {
+		Frame frame = new Frame(4 , 5);
+		int result = frame.score();
+		assertEquals(14, result);
+	}
 }
