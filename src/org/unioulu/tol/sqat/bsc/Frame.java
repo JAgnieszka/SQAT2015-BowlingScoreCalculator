@@ -17,10 +17,10 @@ public class Frame {
 	public int score(){
 		//to be implemented
 	
-		int som =bg.score();
-		if(som!=0){
-			System.out.println("fsfs");
-		}
+		//		int som =bg.score();
+		//		if(som!=0){
+		//			System.out.println("fsfs");
+		//		}
 		int sum=firstThrow+secondThrow;
 //		Frame frame=new Frame(sum, sum);
 		
