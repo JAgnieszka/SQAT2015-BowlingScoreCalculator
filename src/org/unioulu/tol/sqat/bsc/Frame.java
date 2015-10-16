@@ -3,6 +3,7 @@ package org.unioulu.tol.sqat.bsc;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	BowlingGame bg =new BowlingGame();
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;

@@ -23,3 +23,6 @@ UnitTestSessionAction 1444985820492 TestCell OK
 UnitTestCaseAction 1444985850167 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444985850169 TestBowlingScoreCalculator OK
 EditAction 1444985927322 Frame.java 835 6 8 0
+RefactoringAction 1444985941248 Frame.java ADD BowlingGame bg FIELD
+RefactoringAction 1444985948266 Frame.java RENAME Frame(int, int)=>int firstThrow/2 FIELD
+EditAction 1444985957697 Frame.java 872 6 8 0
