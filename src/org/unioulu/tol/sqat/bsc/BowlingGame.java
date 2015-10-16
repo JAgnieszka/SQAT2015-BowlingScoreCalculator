@@ -24,6 +24,7 @@ public class BowlingGame {
 		//to be implemented
 		int size=frames.size();
 		System.out.println("last "+size);
+		System.out.println("last "+frames.get(size-1));
 		return 0;
 	}
 	
