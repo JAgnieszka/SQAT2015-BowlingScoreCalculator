@@ -32,7 +32,8 @@ public class BowlingGame {
 		int index=scores.size();
 		System.out.println("index "+index);
 		int sum= scores.get(index);
-		return 0;
+		System.out.println("sum "+sum);
+		return sum;
 	}
 	
 	public boolean isNextFrameBonus(){

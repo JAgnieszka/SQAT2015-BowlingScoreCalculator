@@ -23,6 +23,8 @@ public class Frame {
 		//		}
 		int sum=firstThrow+secondThrow;
 		bg.sentScore(sum);
+		int oldScore=bg.score();
+		System.out.println("oldScore "+oldScore);
 //		Frame frame=new Frame(sum, sum);
 		
 		
