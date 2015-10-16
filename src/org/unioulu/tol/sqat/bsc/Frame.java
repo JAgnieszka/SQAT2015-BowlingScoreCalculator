@@ -14,7 +14,7 @@ public class Frame {
 	public int score(){
 		//to be implemented
 		int sum=firstThrow+secondThrow;
-		
+		bg.addFrame(frame);
 		return sum;
 	}
 
