@@ -31,7 +31,7 @@ public class BowlingGame {
 		} */
 		int index=scores.size();
 		System.out.println("index "+index);
-		int sum= scores.get(index);
+		int sum= scores.get(index-1);
 		System.out.println("sum "+sum);
 		return sum;
 	}
