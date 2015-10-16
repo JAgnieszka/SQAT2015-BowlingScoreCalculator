@@ -3,7 +3,7 @@ package org.unioulu.tol.sqat.bsc;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
-	BowlingGame bg =new BowlingGame();
+//	BowlingGame bg =new BowlingGame();
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
@@ -15,13 +15,13 @@ public class Frame {
 	}
 	//the score of a single frame
 	public int score(){
-		
+		BowlingGame bg =new BowlingGame();
 		int oldScore=bg.score();
 		
 		int sum=firstThrow+secondThrow;
 		bg.sentScore(sum);
 		
-//		System.out.println("oldScore "+oldScore);
+		System.out.println("oldScore "+oldScore);
 //		Frame frame=new Frame(sum, sum);
 		int result=sum+oldScore;
 		
