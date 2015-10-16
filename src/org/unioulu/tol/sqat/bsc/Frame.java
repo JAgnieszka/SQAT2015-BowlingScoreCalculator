@@ -4,7 +4,8 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	// BowlingGame bg =new BowlingGame();
-
+	BowlingGame bg = new BowlingGame();
+	int oldScore;
 	public Frame(int firstThrow, int secondThrow) {
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
@@ -17,10 +18,10 @@ public class Frame {
 
 	// the score of a single frame
 	public int score() {
-		BowlingGame bg = new BowlingGame();
+		
 		int sum = firstThrow + secondThrow;
 		System.out.println("sum " + sum);
-		int oldScore = bg.score();
+		oldScore = bg.score();
 		bg.sentScore(sum);
 		System.out.println("oldScore " + oldScore);
 	

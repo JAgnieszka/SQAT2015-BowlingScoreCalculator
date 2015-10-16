@@ -216,3 +216,10 @@ EditAction 1444990265458 BowlingGame.java 1337 6 11 0
 UnitTestCaseAction 1444990265791 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444990265792 TestBowlingScoreCalculator FAIL
 EditAction 1444990281465 BowlingGame.java 1378 6 12 0
+UnitTestCaseAction 1444990281798 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444990281798 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444990684216 Frame.java ADD BowlingGame bg FIELD
+RefactoringAction 1444990700731 Frame.java ADD int oldScore FIELD
+UnitTestCaseAction 1444990711846 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444990711846 TestBowlingScoreCalculator FAIL
+EditAction 1444990753580 TestBowlingScoreCalculator.java 730 2 10 2
