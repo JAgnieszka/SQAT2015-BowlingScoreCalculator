@@ -92,3 +92,4 @@ EditAction 1444987234679 Frame.java 1084 7 9 0
 UnitTestCaseAction 1444987234994 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444987234994 TestBowlingScoreCalculator OK
 EditAction 1444987280032 BowlingGame.java 686 5 5 0
+EditAction 1444987368782 BowlingGame.java 697 5 6 0
