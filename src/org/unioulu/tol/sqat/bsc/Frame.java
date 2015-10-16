@@ -21,11 +21,11 @@ public class Frame {
 		int sum=firstThrow+secondThrow;
 		bg.sentScore(sum);
 		
-		System.out.println("oldScore "+oldScore);
+//		System.out.println("oldScore "+oldScore);
 //		Frame frame=new Frame(sum, sum);
 		int result=sum+oldScore;
 		
-		return sum;
+		return result;
 	}
 
 	//returns whether the frame is a strike or not

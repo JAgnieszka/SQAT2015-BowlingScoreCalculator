@@ -181,3 +181,8 @@ UnitTestCaseAction 1444989286159 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444989286160 TestBowlingScoreCalculator FAIL
 RefactoringAction 1444989476417 TestBowlingScoreCalculator.java REMOVE import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
 EditAction 1444989509126 TestBowlingScoreCalculator.java 612 2 8 2
+UnitTestCaseAction 1444989509476 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444989509476 TestBowlingScoreCalculator OK
+UnitTestCaseAction 1444989529846 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444989529847 TestBowlingScoreCalculator OK
+EditAction 1444989573263 Frame.java 1102 7 12 0
