@@ -9,12 +9,13 @@ public class Frame {
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
-	
+	//Frame fr=new Frame();
 	//the score of a single frame
 	public int score(){
 		//to be implemented
 		int sum=firstThrow+secondThrow;
-		bg.addFrame(frame);
+//		Frame frame=new Frame(sum, sum);
+//		bg.addFrame(frame);
 		return sum;
 	}
 
