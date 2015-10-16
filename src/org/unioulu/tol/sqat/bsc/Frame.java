@@ -16,7 +16,7 @@ public class Frame {
 	//the score of a single frame
 	public int score(){
 		//to be implemented
-		bg.addFrame(this);
+	
 		int som =bg.score();
 		if(som!=0){
 			System.out.println("fsfs");
