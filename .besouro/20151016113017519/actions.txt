@@ -206,3 +206,4 @@ RefactoringAction 1444989961952 TestBowlingScoreCalculator.java REMOVE syso() ME
 UnitTestCaseAction 1444990000407 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444990000408 TestBowlingScoreCalculator FAIL
 EditAction 1444990193779 TestBowlingScoreCalculator.java 735 2 10 2
+EditAction 1444990193889 Frame.java 1159 7 15 0

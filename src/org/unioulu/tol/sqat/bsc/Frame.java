@@ -18,13 +18,12 @@ public class Frame {
 	// the score of a single frame
 	public int score() {
 		BowlingGame bg = new BowlingGame();
-		int oldScore = bg.score();
-
 		int sum = firstThrow + secondThrow;
+		System.out.println("sum " + sum);
+		int oldScore = bg.score();
 		bg.sentScore(sum);
-
 		System.out.println("oldScore " + oldScore);
-		// Frame frame=new Frame(sum, sum);
+	
 		int result = sum + oldScore;
 
 		return result;
