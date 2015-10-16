@@ -116,3 +116,26 @@ EditAction 1444987623677 BowlingGame.java 751 5 7 0
 UnitTestCaseAction 1444987623999 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444987623999 TestBowlingScoreCalculator OK
 EditAction 1444987775963 BowlingGame.java 777 5 8 0
+UnitTestCaseAction 1444987776322 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444987776322 TestBowlingScoreCalculator OK
+RefactoringAction 1444987837734 BowlingGame.java ADD void sentScore(int) METHOD
+RefactoringAction 1444987905777 BowlingGame.java ADD List<Frame> frames/2 FIELD
+RefactoringAction 1444987915324 BowlingGame.java RENAME frames/2=>List<Int> frames2 FIELD
+RefactoringAction 1444987917842 BowlingGame.java RENAME frames2=>List<Int> S FIELD
+RefactoringAction 1444987920358 BowlingGame.java RENAME S=>List<Int> score FIELD
+RefactoringAction 1444987921376 BowlingGame.java RENAME score=>List<Int> scores FIELD
+RefactoringAction 1444987923893 BowlingGame.java REMOVE scores FIELD
+RefactoringAction 1444987928409 BowlingGame.java ADD List<Int> scores FIELD
+RefactoringAction 1444987941457 BowlingGame.java REMOVE scores FIELD
+CompilationAction 1444987951702 BowlingGame.java
+CompilationAction 1444987951702 BowlingGame.java
+RefactoringAction 1444987963503 BowlingGame.java ADD List scores FIELD
+CompilationAction 1444987968996 BowlingGame.java
+CompilationAction 1444987968996 BowlingGame.java
+CompilationAction 1444987969165 BowlingGame.java
+RefactoringAction 1444988008619 BowlingGame.java REMOVE sentScore(int) METHOD
+RefactoringAction 1444988008620 BowlingGame.java REMOVE isNextFrameBonus() METHOD
+RefactoringAction 1444988014173 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
+RefactoringAction 1444988014175 BowlingGame.java ADD void sentScore(int) METHOD
+CompilationAction 1444988115709 BowlingGame.java
+EditAction 1444988140704 TestBowlingScoreCalculator.java 615 1 4 1

@@ -15,7 +15,7 @@ public class TestBowlingScoreCalculator {
 		Frame frame = new Frame(1 , 4);
 		
 		BowlingGame bg = new BowlingGame();
-		bg.addFrame(frame);
+		//bg.addFrame(frame);
 		
 		int result = frame.score();
 		assertEquals(5, result);
