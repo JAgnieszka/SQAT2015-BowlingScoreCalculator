@@ -23,7 +23,7 @@ public class Frame {
 		System.out.println("sum " + sum);
 		oldScore = bg.score();
 		bg.sentScore(sum);
-		System.out.println("oldScore " + oldScore);
+//		System.out.println("oldScore " + oldScore);
 	
 		int result = sum + oldScore;
 

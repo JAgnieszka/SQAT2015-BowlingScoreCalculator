@@ -33,7 +33,7 @@ public class BowlingGame {
 		 */
 		int sum;
 		int index = scores.size();
-		System.out.println("index " + index);
+//		System.out.println("index " + index);
 		
 		if (scores.isEmpty()) {
 			sum = 0;
@@ -42,7 +42,7 @@ public class BowlingGame {
 			//System.out.println("index " + index);
 			
 			sum = scores.get(index - 1);
-			System.out.println("sum " + sum);
+//			System.out.println("sum " + sum);
 		}
 
 		return sum;
