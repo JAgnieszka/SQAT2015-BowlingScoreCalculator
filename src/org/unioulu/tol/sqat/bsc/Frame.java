@@ -14,9 +14,13 @@ public class Frame {
 	public int score(){
 		//to be implemented
 		bg.addFrame(this);
+		int som =bg.score();
+		if(som!=0){
+			System.out.println("fsfs");
+		}
 		int sum=firstThrow+secondThrow;
 //		Frame frame=new Frame(sum, sum);
-		bg.score();
+		
 		
 		return sum;
 	}
