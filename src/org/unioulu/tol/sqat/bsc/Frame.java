@@ -13,9 +13,11 @@ public class Frame {
 	//the score of a single frame
 	public int score(){
 		//to be implemented
+		
 		int sum=firstThrow+secondThrow;
 //		Frame frame=new Frame(sum, sum);
-//		bg.addFrame(frame);
+		bg.score();
+		
 		return sum;
 	}
 
