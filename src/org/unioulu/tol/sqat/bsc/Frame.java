@@ -13,6 +13,7 @@ public class Frame {
 	public int score(){
 		//to be implemented
 		int sum=firstThrow+secondThrow;
+		
 		return sum;
 	}
 
