@@ -22,6 +22,7 @@ public class Frame {
 		//			System.out.println("fsfs");
 		//		}
 		int sum=firstThrow+secondThrow;
+		bg.sentScore(sum);
 //		Frame frame=new Frame(sum, sum);
 		
 		

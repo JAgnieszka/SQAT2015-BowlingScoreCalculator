@@ -139,3 +139,4 @@ RefactoringAction 1444988014173 BowlingGame.java ADD boolean isNextFrameBonus() 
 RefactoringAction 1444988014175 BowlingGame.java ADD void sentScore(int) METHOD
 CompilationAction 1444988115709 BowlingGame.java
 EditAction 1444988140704 TestBowlingScoreCalculator.java 615 1 4 1
+EditAction 1444988140792 Frame.java 1106 7 10 0
