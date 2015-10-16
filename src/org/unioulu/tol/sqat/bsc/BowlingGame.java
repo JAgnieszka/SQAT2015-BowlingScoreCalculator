@@ -58,5 +58,6 @@ public class BowlingGame {
 		scores.add(sum);
 		System.out.println("sum2 " + sum);
 		int index = scores.size();
+		System.out.println("index " + index);
 	}
 }
