@@ -56,8 +56,8 @@ public class BowlingGame {
 	public void sentScore(int sum) {
 		// TODO Auto-generated method stub
 		scores.add(sum);
-		System.out.println("sum2 " + sum);
-		int index = scores.size();
-		System.out.println("index " + index);
+//		System.out.println("sum2 " + sum);
+		//		int index = scores.size();
+		//		System.out.println("index " + index);
 	}
 }
